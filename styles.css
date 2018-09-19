@@ -1,0 +1,67 @@
+body
+{
+background-color:#8B0000;
+color:#000000;
+font-family:"Verdana",Sans-serif;
+font-size:0.875em;
+}
+a:link {color:#1E90FF;}      /* unvisited link */
+a:visited {color:#6A5ACD;}  /* visited link */
+a:active {color:#00FFFF;}  /* selected link */
+}
+
+<style type="text/css">
+.table{display:block}
+.table *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#FFFFFF}
+.table1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #f1c77f;
+  border-right:1px solid #f1c77f;
+  background:#f9e6c7}
+.table2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #e9a735;
+  border-right:1px solid #e9a735;
+  background:#faecd4}
+.table3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #faecd4;
+  border-right:1px solid #faecd4;}
+.table4{
+  border-left:1px solid #f1c77f;
+  border-right:1px solid #f1c77f}
+.table5{
+  border-left:1px solid #f9e6c7;
+  border-right:1px solid #f9e6c7}
+.tablefg{
+  background:#FFFFFF}
+</style>
+
+<style type="text/css">
+body,input
+    {
+    font-family:"Verdana",Sans-serif;
+    font-size:0.9em;
+    }
+.spoiler
+    {
+    padding:3px;
+    }
+.spoiler .inner
+    {
+    padding:3px;margin:3px;
+    }
+</style>
+
