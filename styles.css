@@ -1,52 +1,64 @@
-body
-{
-background-color:#8B0000;
-color:#000000;
+﻿body
+{background-color:#000000;
+background-image: url("tpbackground.webp");
+background-repeat: no-repeat;
+background-size: 100%;
+color: #ffff;
 font-family:"Verdana",Sans-serif;
-font-size:0.875em;
-}
-a:link {color:#1E90FF;}      /* unvisited link */
-a:visited {color:#6A5ACD;}  /* visited link */
+font-size: 15px;
+text-shadow: 2px 2px 1px #800000;}
+a:link 
+{color:#89dccb;
+margin-top: 0px;
+margin-right: 2px;
+margin-bottom: 0px;
+margin-left: 2px;
+padding: 0;
+}      /* unvisited link */
+a:visited {color:#1dc9a6;}  /* visited link */
 a:active {color:#00FFFF;}  /* selected link */
+background-size: 100%;
 }
-
 <style type="text/css">
-.table{display:block}
+<style type="text/css">
+.table
+{display:block
+}
 .table *{
-  display:block;
-  height:1px;
-  overflow:hidden;
-  font-size:.01em;
-  background:#FFFFFF}
-.table1{
-  margin-left:3px;
-  margin-right:3px;
-  padding-left:1px;
-  padding-right:1px;
-  border-left:1px solid #f1c77f;
-  border-right:1px solid #f1c77f;
-  background:#f9e6c7}
-.table2{
-  margin-left:1px;
-  margin-right:1px;
-  padding-right:1px;
-  padding-left:1px;
-  border-left:1px solid #e9a735;
-  border-right:1px solid #e9a735;
-  background:#faecd4}
-.table3{
-  margin-left:1px;
-  margin-right:1px;
-  border-left:1px solid #faecd4;
-  border-right:1px solid #faecd4;}
-.table4{
-  border-left:1px solid #f1c77f;
-  border-right:1px solid #f1c77f}
-.table5{
-  border-left:1px solid #f9e6c7;
-  border-right:1px solid #f9e6c7}
-.tablefg{
-  background:#FFFFFF}
+display:block
+height:1px;
+border-radius: 20px;
+padding: 2px 75px 0px 75px;
+margin-top: 25px;
+margin-left: 175px;
+margin-right: 175px;
+overflow:hidden;
+word-break: break-word;
+background:#1a1a1a
+width: 100%;
+}
+.tablefg
+{
+  background:#1a1a1a
+}
+th, td{
+margin:0;
+padding: 4px 20px 4px 0px !important;
+position:relative;
+border-radius: 0px !important;
+}
+div {
+  opacity: 0.9;
+}
+img {
+margin: 0 !important;
+padding: 0px 4px 0px 0px  !important;
+overflow: visible !important;
+  max-width: 100%;
+  height: auto;
+opacity: 1 !important;
+}
+</style>
 </style>
 
 <style type="text/css">
@@ -55,13 +67,36 @@ body,input
     font-family:"Verdana",Sans-serif;
     font-size:0.9em;
     }
+      input {
+        padding: 15px 30px;
+        margin: 10px 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+    background-color: transparent;
+    opacity: 1;
+    border: 2px solid #f44336;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+      }
+      input:hover {
+        opacity: 0.5;
+      }
+}
 .spoiler
     {
-    padding:3px;
+  padding: 10px 32px;
     }
 .spoiler .inner
     {
-    padding:3px;margin:3px;
+    padding:1px;margin:1px;
+    opacity: 1 !important;
     }
 </style>
+
 
